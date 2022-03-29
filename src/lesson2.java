@@ -8,6 +8,7 @@ public class lesson2 {
 
     }
     public static boolean addTwoNumbers(int x, int y) {
+
         return ((x+y) > 10 && (x+y) <= 20);
     }
     public static void plusMinNumbers( int x){
@@ -19,6 +20,7 @@ public class lesson2 {
         }
     }
     public static boolean plusMinNumbers1(int x) {
+
         return (x >= 0);
     }
     public static void lineRepeat(String name, int x){
@@ -28,6 +30,6 @@ public class lesson2 {
 
     }
     public static boolean highYear(int x) {
-       return (((x % 4 == 0) && (x % 400 == 0)) || (x % 100 != 0));
+       return x % 4 == 0 && x % 100 != 0 || x % 400 == 0;
     }
 }
